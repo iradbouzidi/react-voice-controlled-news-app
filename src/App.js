@@ -68,7 +68,7 @@ const App = () => {
           </div>
         ) : null}
         <img
-          src="https://scontent.ftun9-1.fna.fbcdn.net/v/t1.0-9/67659112_438501920211949_8507331483155824640_o.jpg?_nc_cat=105&ccb=3&_nc_sid=e3f864&_nc_ohc=mw_wBJ9ytSMAX9KfEbi&_nc_ht=scontent.ftun9-1.fna&oh=2794c58248becac9eed2eca4e69cf13a&oe=60595329"
+          src={logo}
           className={classes.alanLogo}
           alt="logo"
         />
@@ -79,9 +79,8 @@ const App = () => {
         <div className={classes.footer}>
           <Typography variant="body1" component="h2">
             Created by
-            <a
-              className={classes.link}
-              href="https://irad-portfolio.netlify.app/"
+            <a href="https://irad-portfolio.vercel.app/"
+              className={classes.link} target="_blank" rel="noopener noreferrer"
             >
               {" "}
               Irad Bouzidi
